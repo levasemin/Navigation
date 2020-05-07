@@ -6,6 +6,10 @@ ScriptsOnlyBuild:
     - GoogleARCore.ARCoreBackgroundRenderer
     - GoogleARCore.ARCoreSession
     - GoogleARCore.ARCoreSessionConfig
+    - GoogleARCore.EnvironmentalLight
+    - GoogleARCore.Examples.Common.DetectedPlaneGenerator
+    - GoogleARCore.Examples.Common.DetectedPlaneVisualizer
+    - GoogleARCore.Examples.HelloAR.Special
     - GoogleARCore.HelloAR.HelloARController
     - HandleZoom
     - Mapshow
@@ -70,53 +74,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 11462}
+      Script: {instanceID: 11496}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11542}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11546}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11748}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 12044}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 12206}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 12382}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12550}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12748}
+      Script: {instanceID: 12556}
     - Class: 114
-      Script: {instanceID: 12806}
+      Script: {instanceID: 12658}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 13070}
+      Script: {instanceID: 12946}
     - Class: 114
-      Script: {instanceID: 13166}
+      Script: {instanceID: 13158}
     - Class: 114
-      Script: {instanceID: 13420}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 13744}
+      Script: {instanceID: 13330}
     - Class: 114
-      Script: {instanceID: 13938}
+      Script: {instanceID: 13602}
     - Class: 114
-      Script: {instanceID: 13958}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13738}
     - Class: 114
-      Script: {instanceID: 14768}
+      Script: {instanceID: 13954}
+    - Class: 114
+      Script: {instanceID: 14160}
+    - Class: 114
+      Script: {instanceID: 14182}
+    - Class: 114
+      Script: {instanceID: 14200}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -163,21 +173,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11244}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11542}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12208}
     - Class: 114
-      Script: {instanceID: 12748}
+      Script: {instanceID: 12888}
     - Class: 114
-      Script: {instanceID: 13420}
+      Script: {instanceID: 13602}
     - Class: 114
-      Script: {instanceID: 13828}
+      Script: {instanceID: 14040}
     - Class: 114
-      Script: {instanceID: 13958}
+      Script: {instanceID: 14182}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -205,7 +215,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 3c08375166df118bd1801438fc36b92f
+      Hash: c42672c997f8be6b1aa86a927ebea785
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
@@ -221,6 +231,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 88e2c6f501bf5dead831a3e44c30de40
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Platform.Editor
+    className: BannerPlaceholder
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -295,7 +311,7 @@ ScriptsOnlyBuild:
     className: AugmentedImageExampleController
   - hash:
       serializedVersion: 2
-      Hash: 72712369a7c681ad84fc255a5ec0b333
+      Hash: aeb62f729c52c814dec86c47dcac1471
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
@@ -314,6 +330,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements
+    className: Placeholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: PositionAsUV1
@@ -325,7 +347,7 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 8e0313c6f5e2ce35991fec2d64f8eaab
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
@@ -347,18 +369,6 @@ ScriptsOnlyBuild:
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
     className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Editor
-    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: bd46371fd5f7e2513f915be0ea5db232
@@ -445,7 +455,7 @@ ScriptsOnlyBuild:
     className: CloudAnchorUIController
   - hash:
       serializedVersion: 2
-      Hash: 4e9333594897a1fb8b136ad2eae996c7
+      Hash: d941ab6dd93d37ffdf2277f2ea2375a0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
@@ -461,6 +471,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f3d1807a613ed4b83d9c90e8aa51a8a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleARCore.Examples.HelloAR
+    className: Special
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -655,6 +671,12 @@ ScriptsOnlyBuild:
     className: CameraLookAt
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Monetization.dll
+    namespaceName: UnityEngine.Monetization
+    className: Placeholder
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -667,7 +689,7 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: feb9a5a121d15fa3654d4e50a5233045
+      Hash: f84d945e5e1ca985698660fc26e9657f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
@@ -775,6 +797,12 @@ ScriptsOnlyBuild:
     className: ARCoreSessionConfig
   - hash:
       serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: com.unity.multiplayer-hlapi.Runtime.dll
     namespaceName: UnityEngine.Networking
@@ -787,7 +815,7 @@ ScriptsOnlyBuild:
     className: AugmentedImageDatabase
   - hash:
       serializedVersion: 2
-      Hash: 3b760e6526e13f7504f59e210145899a
+      Hash: 8001a5f7502aab37e42206da015e6914
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
@@ -809,6 +837,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: ApplicationQuit
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -889,7 +923,7 @@ ScriptsOnlyBuild:
     className: HelloARController
   - hash:
       serializedVersion: 2
-      Hash: df434544c9f7b33d1cc7e635b180d279
+      Hash: 21d73eda81c18eacd2c91ad5dfaf2e32
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshPro
@@ -991,6 +1025,12 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: a325152ad9563ed900af221c132fea36
+    assemblyName: UnityEngine.Advertisements.dll
+    namespaceName: UnityEngine.Advertisements.Utilities
+    className: CoroutineExecutor
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1005,4 +1045,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Welcome.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Indoor-Navigation-AR-levaflat/test.apk
+  playerPath: D:/Navigation/Indoor-Navigation-AR-levaflat/test.apk
