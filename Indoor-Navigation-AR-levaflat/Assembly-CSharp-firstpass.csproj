@@ -619,6 +619,9 @@
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.DeviceSimulator.Tests.Common">
+ <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -636,6 +639,9 @@
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.DeviceSimulator.Editor">
+ <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
@@ -663,12 +669,6 @@
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.DeviceSimulator.Tests.Common">
- <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.DeviceSimulator.Tests.Common.dll</HintPath>
- </Reference>
- <Reference Include="Unity.DeviceSimulator.Editor">
- <HintPath>E:/Users/maria/Unity/Navigation/Indoor-Navigation-AR-levaflat/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

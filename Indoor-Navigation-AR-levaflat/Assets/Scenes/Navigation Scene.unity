@@ -4900,6 +4900,31 @@ MonoBehaviour:
   gizmoRadius: 0.1
   scaleToPixels: 0
   pixelPerUnit: 128
+--- !u!1 &1946730376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4155134706235083333, guid: abcc0bcaf7434beebbceb29a80572a03,
+    type: 3}
+  m_PrefabInstance: {fileID: 222597038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1946730378
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946730376}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 54bed08b64a725647a1962ba16086494, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2056030193
 GameObject:
   m_ObjectHideFlags: 0
